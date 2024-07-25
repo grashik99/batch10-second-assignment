@@ -149,8 +149,8 @@ body{
     border-radius: 12px;
     backdrop-filter: blur(2px);
     background: rgba(48, 48, 48, 0.54);
-    margin-top: -860px;
-    margin-left: 220px;
+    margin-top: -760px;
+    margin-left: 150px;
 }
 .card-1 h1{
     color: rgb(255, 255, 255);
@@ -279,7 +279,7 @@ body{
         flex-direction: column;
     }
     .hero-content{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
     .button-container{
