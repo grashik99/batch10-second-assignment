@@ -288,7 +288,10 @@ body{
     }
     .card-1{
         margin-top: -500px;
-        margin-left: 90px;
+        margin-left: -20px;
+    }
+    .card-2{
+        margin-top: -130px; 
     }
     .habits{
         width: 100%;
