@@ -252,6 +252,109 @@ body{
     margin: 5%;
     border-radius: 1.125rem;
 }
+/* calculator related styles */
+.calculator{
+    margin-bottom: 80px;
+}
+.cal-container{
+    padding: 40px 150px;
+    background-color: rgb(34, 34, 34);
+}
+.texts{
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.cal-container h3{
+    font-weight: 900;
+    font-size: 1.75rem;
+    margin-bottom: 14px;
+    color: rgb(255, 255, 255);
+}
+.chart{
+    width: 40%;
+    margin: 0 auto;
+}
+table{
+    margin-top: 50px;
+}
+th{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+td{
+    font-size: .875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 11px;
+    text-align: left;
+}
+.main-calculator{
+    width: 60%;
+}
+.main-calculator button{
+    margin-top: 30px;
+}
+input{
+    height: 35px;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.sex{
+    height: 49px;
+    width: 262px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.factor{
+    height: 49px;
+    width: 538px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+option{
+    background-color: rgb(38, 18, 15);
+}
+.team-m-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.team-member-01{
+    width: 270px;
+    height: 330px;
+    border-radius: 18px;
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-image: url(../images/trainer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 
 
@@ -268,14 +371,12 @@ body{
     .bar{
         display: block;
     }
-    .main-title{
-        font-size: 2.25rem;
-    }
     .btn-app{
         margin-left: 0px;
     }
     .hero-section,
-    .run{
+    .run,
+    .cal-container{
         flex-direction: column;
     }
     .hero-content{
@@ -306,4 +407,25 @@ body{
     .join-btn{
         width: 100%;
     }
+    .main-title{
+        font-size: 2.25rem;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .cal-container{
+        padding: 5px;
+    }
+    .chart{
+        width: calc(100% - 50px);
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }
+    .cal-container{
+    width: 100%;}
+    .sex,.factor{
+        width: 100%;
+    }
+    
+    
 }
