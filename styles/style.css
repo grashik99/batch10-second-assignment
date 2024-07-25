@@ -357,8 +357,8 @@ option{
     margin-bottom: 90px;
 }
 .team-member-01{
-    width: 100%;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border-radius: 18px;
     background: url(../images/trainer1.png);
     background-position: center;
@@ -373,8 +373,8 @@ option{
     padding: 20px;
 }
 .team-member-02{
-    width: 100%;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border-radius: 18px;
     background: url(../images/trainer2.png);
     background-position: center;
@@ -389,8 +389,8 @@ option{
     padding: 20px;
 }
 .team-member-03{
-    width: 100%;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border-radius: 18px;
     background: url(../images/trainer3.png);
     background-position: center;
@@ -405,8 +405,8 @@ option{
     padding: 20px;
 }
 .team-member-04{
-    width: 100%;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border-radius: 18px;
     background: url(../images/trainer4.png);
     background-position: center;
@@ -421,8 +421,8 @@ option{
     padding: 20px;
 }
 .team-member-05{
-    width: 100%;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border-radius: 18px;
     background: url(../images/trainer5.png);
     background-position: center;
@@ -437,8 +437,8 @@ option{
     padding: 20px;
 }
 .team-member-06{
-    width: 100%;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border-radius: 18px;
     background: url(../images/trainer6.png);
     background-position: center;
@@ -592,6 +592,14 @@ footer{
     }
     .sex,.factor{
         width: 100%;
+    }
+    .team-member-01,
+    .team-member-02,
+    .team-member-03,
+    .team-member-04,
+    .team-member-05,
+    .team-member-06{
+        margin: 0 auto;
     }
     .team-member-01,
     .team-member-04{
